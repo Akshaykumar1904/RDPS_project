@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Love+Light&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Style+Script&display=swap");
+    </style>
+    <style>
+      body {
+        background-color: #FFCDB2;
+        color: black;
+        font-family: "Fira Sans Condensed", serif;
+      }
+      .hero-1 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 25px;
+        margin-top: 130px;
+        background-color: #FFCDB2;
+        color: black;
+        align-items: start;
+      }
+
+      .hero-1 h1 {
+        padding: 8px;
+        margin: 0;
+        display: inline-block;
+        font-size: 80px;
+        align-self: center;
+      }
+      .hero-1 p {
+        padding: 8px;
+        align-self: center;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 600;
+        
+      }
+
+      .navbar {
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90%;
+        background-color: #1D1616;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        padding: 15px 15px;
+        margin: 20px;
+        margin-left: 55px;
+        border-radius: 15px;
+        height: 35px;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        border-style: solid;
+        border-width: 0.1px;
+      }
+
+      .navbar a {
+        color:white;
+        text-decoration: none;
+      }
+
+      .navbar a:hover {
+        color: #E5D0AC;
+        text-decoration: none;
+      }
+      .navbar .middle-section {
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .navbar .left-section {
+        width: 50px;
+      }
+
+      .navbar .right-section {
+        justify-content: space-between;
+        width: 150px;
+      }
+
+      .navbar .right-section button{
+        cursor: pointer;
+        font-family: "Fira Sans Condensed", serif;
+        font-weight: bold;
+        background-color: #1D1616;
+        color:white ;
+        border:none;
+        font-size:20px ;
+      }
+
+      .navbar .right-section button:hover{
+        color: #E5D0AC;
+      }
+
+      .text-section-1 {
+        height: 100vh;
+        display: flex;
+        margin: 25px;
+        color: black;
+        flex-direction: column;
+        align-items: start;
+      }
+
+      .text-section-1 h1{
+        display: inline-block;
+        align-self: center;
+        margin: 0;
+      }
+
+      .text-section-1 p{
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 600;
+        align-self: center;
+      }
+
+
+      .hero-2{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 25px;
+        margin-top: 130px;
+        background-color: #FFCDB2;
+        color: black;
+        align-items: start;
+      }
+
+
+      .hero-2 h2{
+        display: inline-block;
+        align-self: center;
+        font-size: 30px;
+      }
+
+      footer{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 25px;
+        margin-top: 130px;
+        background-color: #481E14;
+        color: white;
+      }
+
+
+      footer{
+        font-family: "Fira Sans Condensed", serif;
+        align-items: start;
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+        font-weight: 700;
+        padding: 8px 8px ;
+        justify-content: space-evenly;
+      }
+
+      footer .footer-top{
+        font-size: 25px;
+      }
+
+
+
+      .follow h1{
+        font-family: "Fira Sans Condensed", serif;
+        padding: 8px 8px ;
+        font-size: 25px;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="left-section">
+        <a href="/Rdps.html">RDPS</a>
+      </div>
+      <div class="middle-section">
+        <a href="/pricing.html">Price</a>
+        <a href="/statistics.html">Statistics</a>
+        <!-- <a href="/statistics.html">statistics</a> -->
+      </div>
+      <div class="right-section">
+        <a href="/login.html">
+          <button>Login</button>
+        </a>
+        <a href="/sign-up.html">
+          <button>
+            Sign-up
+          </button>
+        </a>
+      </div>
+    </nav>
+
+    <div class="hero-1">
+      <h1>Safe Your System From Ransomware.</h1>
+      <p>Safe. Secure. Locked.</p>
+    </div>
+
+    <div class="text-section-1">
+      <h1>
+        Now You Can Keep Track Of All The Things Going Inside Your System.
+      </h1>
+      <p>Using Our Statistics Feature,It keep update of everything happening  </p>
+    </div>
+
+    <div class="hero-2">
+      <h2>
+        We track things on real-time and provide the best way to deal with the Current Problem,
+        By Ai-Integration we've now optimised the searching for ransomeware.
+      </h2>
+    </div>
+
+    <footer>
+      <div class="footer-top">
+        <h1>
+          Stay Secure !!
+        </h1>
+
+        <p>
+          You're Always Safe With Us !
+        </p>
+
+      </div>
+
+      <div class="follow">
+        <h1>follow Us </h1>
+        <img src="" alt="Instagram "><img src="" alt="Linkedin">
+      </div>
+
+      
+  </footer>
+  
+  </body>
+</html>
